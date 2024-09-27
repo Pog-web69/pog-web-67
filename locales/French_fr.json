@@ -1,0 +1,89 @@
+{
+    "__LANG__": "fr",
+    "generic": {
+        "activated": "activé",
+        "deactivated": "désactivé",
+        "yes": "Oui",
+        "no": "Non",
+        "are_you_sure": "Êtes-vous sûr?",
+        "aborted": "Abandonné."
+    },
+    "errors": {
+        "eval_fail": "Évaluation de l'expression échouée !",
+        "yn_timeout": "Le temps est écoulé. Abandonné.",
+        "generic_command_execution_failed": "Une erreur s'est produite lors de l'exécution de la commande ! =(",
+        "command_not_found": "Je ne connais pas la commande '%s' :/",
+        "invalid_argument": "Argument invalide !",
+        "channel_not_found": "Ce salon n'existe pas sur ce serveur. L'avez-vous bien écrit ?",
+        "not_a_number": "Ce n'était pas un nombre ! Vous n'avez pas perdu, mais je ne l'ai pas compté.",
+        "invalid_arithmetic": "Ce n'était pas une expression arithmétique valide ! Vous n'avez pas perdu, mais je ne l'ai pas compté.",
+        "same_user": "Vous ne pouvez pas compter deux fois de suite. Attendez que quelqu'un d'autre compte.",
+        "no_top_stats": "Il n'y a pas encore de statistiques. Comptez pour entrer dans le classement!",
+        "stats_on_bot": "Les bots n'ont pas de statistiques de comptage :)",
+        "cheat_mode_enabled": "Les stats sont désactivées en mode triche car personne ne peut perdre.",
+        "math_only": "Seules les expressions mathématiques sont autorisées dans ce canal ! Le comptage normal a été désactivé.",
+        "tex_on_windows": "Le bot est actuellement en cours d'exécution sur Windows et ne peut donc pas exécuter cette commande.",
+        "no_channel_perm": "Il semble que je n'ai pas la permission de créer des salons.",
+        "bot_ban": "Essaie encore, mais je ne peux pas me bannir :)"
+    },
+    "replies": {
+        "bot_info_tagline": "Bot Discord pour compter. Autorise les expressions arithmétiques.",
+        "incorrect_number": "Ce n'était pas le prochain nombre ! Vous avez perdu ! Le dernier nombre était : %s et le prochain nombre aurait été : %s. Votre nombre était : %s",
+        "failed_stats": "Nombre atteint %s. Le meilleur compte jusqu'à présent était %s.",
+        "channel_set": "Le salon a été réglé sur %s !",
+        "arithmetic_set": "Les expressions arithmétiques ont été réglées sur %s !",
+        "arithmetic_set_mathonly": "Activé le mode math-only !",
+        "top_users": {
+            "title": "Meilleur utilisateur sur %s",
+            "description": "Les 10 meilleurs utilisateurs triés par %s.",
+            "wins": "comptages corrects",
+            "fails": "comptages échoués",
+            "math": "comptages mathématiques"
+        },
+        "stats": {
+            "your_stats": "Vos statistiques",
+            "stats_for": "Statistiques pour %s",
+            "wins": "Comptages corrects",
+            "fails": "Comptages échoués",
+            "math": "Comptages mathématiques"
+        },
+        "timeout_disabled": "Le temps d'attente a été désactivé!",
+        "timeout_set": "Le temps d'attente a été fixé à %s minutes!",
+        "timeout": "Vous avez reçu un temps d'attente de %s minutes!",
+        "cooldown_disabled": "Le délai de récupération pour les nouveaux membres a été désactivé !",
+        "cooldown_set": "Le délai de récupération pour les nouveaux membres est fixé à %s minutes !",
+        "cooldown": "Puisque vous êtes un nouveau membre, vous devez attendre %s minutes avant de pouvoir compter !",
+        "timeout_factor_disabled": "Le facteur de délai d'attente a été désactivé !",
+        "timeout_factor_set": "Le facteur de délai d'attente a été réglé sur %s !",
+        "reset_guild": {
+            "are_you_sure": "Êtes-vous sûr de vouloir réinitialiser le compteur actuel et toutes les statistiques des utilisateurs ?",
+            "success": "Les données de la guilde ont été réinitialisées !",
+            "confirm": "OUI, TOUT RÉINITIALISER 😇",
+            "abort": "Non, annuler"
+        },
+        "cheat_mode": {
+            "disabled": "Le mode triche a été désactivé!",
+            "are_you_sure": "J'accepte que cela anéantisse complètement le but de ce bot.\nNote: Les statistiques sont désactivées en mode triche. Continuer ?",
+            "confirm": "OUI. JE SUIS UN TRICHEUR.",
+            "abort": "Non, je veux être bon",
+            "success": "Le mode triche a été activé! J'espère que vous êtes content..."
+        },
+        "vote": {
+            "thank_you": "Merci d'envisager de voter !",
+            "rewards": "Nous ne pouvons offrir aucune récompense, mais vous recevrez un fait mathématique aléatoire !"
+        },
+        "ban_user": "L'utilisateur %s a été banni du comptage!",
+        "unban_user": "L'utilisateur %s a été débanni du comptage!",
+        "user_banned": "Désolé, mais vous avez été banni du comptage sur %s!",
+        "best": "Le meilleur compte sur ce serveur jusqu'à présent était %s.",
+        "global_top_current": "Le serveur \"%s\" est à la place #%s dans le classement mondial (%s serveurs) avec son compte actuel (%s)!",
+        "global_top_best": "Le serveur \"%s\" est à la place #%s dans le classement mondial (%s serveurs) avec son meilleur compte (%s)!",
+        "new_best": "Nouveau record !",
+        "help_preamble": "Vous pouvez visiter <https://arithmetica.xyz/wiki> pour voir quelles expressions et syntaxes sont possibles. Pour vérifier si une expression est un compte valide, vous pouvez utiliser `/calc` pour voir si le résultat est correct.\nSupport Server: <https://discord.gg/hgFyq43dug>",
+        "admin_help_preamble": "Configuration: Définissez le canal de comptage avec `/set-channel`, puis configurez éventuellement les options avec `/set-language`, `/toggle-arithmetic`, `/set-timeout`, `/cooldown` et `/timeout-increment`.\nSupport Server: <https://discord.gg/hgFyq43dug>\nWiki: <https://arithmetica.xyz/wiki>",
+        "pin_highscore": "épingler le highscore a été %s!",
+        "rounding": "L'arrondi a été %s!",
+        "channel_create": "Je ne trouve pas le salon `%s`. Voulez-vous que je le crée ?",
+        "no_banns": "Il n'y a pas d'utilisateurs bannis pour le moment."
+    }
+}

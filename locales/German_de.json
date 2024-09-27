@@ -1,0 +1,89 @@
+{
+    "__LANG__": "de",
+    "generic": {
+        "activated": "aktiviert",
+        "deactivated": "deaktiviert",
+        "yes": "Ja",
+        "no": "Nein",
+        "are_you_sure": "Bist du sicher?",
+        "aborted": "Abgebrochen."
+    },
+    "errors": {
+        "eval_fail": "Berechnung des Ausdrucks fehlgeschlagen!",
+        "yn_timeout": "Zeit abgelaufen. Abgebrochen.",
+        "generic_command_execution_failed": "Beim Ausführen des Commands ist ein Fehler aufgetreten! =(",
+        "command_not_found": "Das Command '%s' kenne ich nicht :/",
+        "invalid_argument": "Ungültiges Argument!",
+        "channel_not_found": "Dieser Channel existiert nicht auf diesem Server. Hast du ihn richtig geschrieben?",
+        "not_a_number": "Das war keine Zahl! Du hast nicht verloren, aber ich habe das nicht gezählt.",
+        "invalid_arithmetic": "Das war kein gültiger arithmetischer Ausdruck! Du hast nicht verloren, aber ich habe das nicht gezählt.",
+        "same_user": "Du kannst nicht zweimal hintereinander zählen. Warte bis jemand anderes gezählt hat.",
+        "no_top_stats": "Es gibt noch keine Statistiken. Zähle, um auf die Bestenliste zu kommen!",
+        "stats_on_bot": "Bots bekommen keine Zähl-Stats :)",
+        "cheat_mode_enabled": "Stats sind deaktiviert im cheat mode, weil niemand verlieren kann.",
+        "math_only": "Nur Mathe-Ausdrücke sind in diesem Channel erlaubt! Normales Zählen wurde deaktiviert.",
+        "tex_on_windows": "Der Bot läuft derzeit auf Windows und kann daher diesen Befehl nicht ausführen.",
+        "no_channel_perm": "Es sieht so aus, als hätte ich nicht die Berechtigung, um Channel zu erstellen.",
+        "bot_ban": "Netter Versuch, aber ich kann mich nicht selbst bannen :)"
+    },
+    "replies": {
+        "bot_info_tagline": "Discord Bot zum Zählen. Erlaubt arithmetische Ausdrücke.",
+        "incorrect_number": "Das war nicht die nächste Zahl! Du hast verloren! Die letzte Zahl war %s und die nächste Zahl wäre %s gewesen. Deine Zahl war %s",
+        "failed_stats": "Erreichte Zahl war %s. Beste Zählung bisher war %s.",
+        "channel_set": "Channel wurde auf %s gesetzt!",
+        "arithmetic_set": "Arithmetische Ausdrücke wurden %s!",
+        "arithmetic_set_mathonly": "Nur-Mathe-Modus aktiviert!",
+        "top_users": {
+            "title": "Top User auf %s",
+            "description": "Die Top 10 User sortiert nach %s.",
+            "wins": "korrekten Zählungen",
+            "fails": "gescheiterten Zählungen",
+            "math": "mathe Zählungen"
+        },
+        "stats": {
+            "your_stats": "Deine Stats",
+            "stats_for": "Stats für %s",
+            "wins": "Korrekte Zählungen",
+            "fails": "Gescheiterte Zählungen",
+            "math": "Mathe Zählungen"
+        },
+        "timeout_disabled": "Timeout wurde deaktiviert!",
+        "timeout_set": "Timeout wurde auf %s Minuten gesetzt!",
+        "timeout": "Du hast einen Timeout für %s Minuten erhalten!",
+        "cooldown_disabled": "Abklingzeit für neue Mitglieder wurde deaktiviert!",
+        "cooldown_set": "Abklingzeit für neue Mitglieder wurde auf %s Minuten gesetzt!",
+        "cooldown": "Da du ein neues Mitglied bist, musst du %s Minuten warten, bis du zählen kannst!",
+        "timeout_factor_disabled": "Timeout Faktor wurde deaktiviert!",
+        "timeout_factor_set": "Timeout Faktor wurde auf %s gesetzt!",
+        "reset_guild": {
+            "are_you_sure": "Bist du sicher, dass du den aktuellen count und alle Benutzerstatistiken zurücksetzen möchtest?",
+            "success": "Guild-Daten wurden zurückgesetzt!",
+            "confirm": "JA, ALLES ZURÜCKSETZEN",
+            "abort": "Nein, abbrechen"
+        },
+        "cheat_mode": {
+            "disabled": "Cheat mode wurde abgeschaltet!",
+            "are_you_sure": "Ich akzeptiere, dass dies den Sinn dieses Bots komplett zerstört.\nAchtung: Stats sind im cheat mode deaktiviert. Fortfahren?",
+            "confirm": "JA. ICH BIN EIN CHEATER.",
+            "abort": "Nein, ich will brav sein 😇",
+            "success": "Cheat mode wurde aktiviert! Ich hoffe du bist glücklich..."
+        },
+        "vote": {
+            "thank_you": "Danke, dass du in betracht ziehst, zu voten!",
+            "rewards": "Wir können keine Belohnungen anbieten, aber du bekommst einen zufälligen Mathe-Fakt!"
+        },
+        "ban_user": "User %s wurde vom Zählen gebannt!",
+        "unban_user": "User %s wurde vom Zählen entbannt!",
+        "user_banned": "Tut mir leid, aber du bist vom Zählen in %s gebannt!",
+        "best": "Die höchste Zählung auf diesem Server war bisher %s.",
+        "global_top_current": "Server \"%s\" ist auf Platz #%s in der globalen Bestenliste (%s Server) mit seinen aktuellen Zählung (%s)!",
+        "global_top_best": "Server \"%s\" ist auf Platz #%s in der globalen Bestenliste (%s Server) mit seiner besten Zählung (%s)!",
+        "new_best": "Neuer Rekord!",
+        "help_preamble": "Besuche <https://arithmetica.xyz/wiki>, um zu sehen, welche Ausdrücke und Syntax möglich sind. Um zu überprüfen, ob ein Ausdruck eine gültige Zählung ist, kann `/calc` verwendet werden, um zu sehen, ob das Ergebnis korrekt ist.\nSupport Server: <https://discord.gg/hgFyq43dug>",
+        "admin_help_preamble": "Einrichtung: Zählchannel mit `/set-channel` einstellen. Danach, optionale Einstellungen mit `/set-language`, `/toggle-arithmetic`, `/set-timeout`, `/cooldown` und `/timeout-increment` konfigurieren.\nSupport Server: <https://discord.gg/hgFyq43dug>\nWiki: <https://arithmetica.xyz/wiki>",
+        "pin_highscore": "Highscore pinning wurde %s!",
+        "rounding": "Runden wurde %s!",
+        "channel_create": "Ich kann den Channel `%s` nicht finden. Möchtest du, dass ich ihn erstelle?",
+        "no_banns": "Es gibt derzeit keine gebannten Benutzer."
+    }
+}

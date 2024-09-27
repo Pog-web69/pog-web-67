@@ -1,0 +1,89 @@
+{
+    "__LANG__": "ja",
+    "generic": {
+        "activated": "有効化",
+        "deactivated": "無効化",
+        "yes": "はい",
+        "no": "いいえ",
+        "are_you_sure": "本当によろしいですか？",
+        "aborted": "中止されました。"
+    },
+    "errors": {
+        "eval_fail": "式の評価に失敗しました！",
+        "yn_timeout": "時間切れ。中止されました。",
+        "generic_command_execution_failed": "コマンドの実行中にエラーが発生しました！ =(",
+        "command_not_found": "コマンド '%s' は存在しません :/",
+        "invalid_argument": "無効な引数です！",
+        "channel_not_found": "このサーバーにそのチャンネルは存在しません。正しく入力しましたか？",
+        "not_a_number": "それは数値ではありません！あなたは負けていませんが、それはカウントされませんでした。",
+        "invalid_arithmetic": "それは有効な算術表現ではありません！あなたは負けていませんが、それはカウントされませんでした。",
+        "same_user": "あなたは2回連続でカウントすることはできません。誰かがカウントするのを待ってください。",
+        "no_top_stats": "まだ統計はありません。リーダーボードに載るためにカウントしてください！",
+        "stats_on_bot": "ボットはカウント統計を取得しません :)",
+        "cheat_mode_enabled": "チートモードでは、誰も負けることができないため、統計は無効になっています。",
+        "math_only": "このチャンネルでは数学のみの表現が許可されています！通常のカウントは無効になっています。",
+        "tex_on_windows": "このボットは現在Windowsで実行されているため、このコマンドを実行できません。",
+        "no_channel_perm": "チャンネルを作成する権限がありません。",
+        "bot_ban": "いい試みですが、自分自身を禁止することはできません :)"
+    },
+    "replies": {
+        "bot_info_tagline": "数をカウントするDiscord Botです。算術表現を許可します。",
+        "incorrect_number": "それは次の数値ではありません！あなたは負けました！最後の数値は: %s で、次の数値は: %s でした。あなたの数値は: %s でした",
+        "failed_stats": "到達した数は %s。これまでの最高カウントは %s でした。",
+        "channel_set": "チャンネルは %s に設定されました！",
+        "arithmetic_set": "算術表現は %s に設定されました！",
+        "arithmetic_set_mathonly": "数学のみのモードが有効になりました！",
+        "top_users": {
+            "title": "%sのトップユーザー",
+            "description": "%sによりソートされたトップ10のユーザー。",
+            "wins": "正しいカウント",
+            "fails": "失敗したカウント",
+            "math": "数学カウント"
+        },
+        "stats": {
+            "your_stats": "あなたの統計",
+            "stats_for": "%sの統計",
+            "wins": "正しいカウント",
+            "fails": "失敗したカウント",
+            "math": "数学カウント"
+        },
+        "timeout_disabled": "タイムアウトが無効になりました！",
+        "timeout_set": "タイムアウトが%s分に設定されました！",
+        "timeout": "あなたは%s分のタイムアウトを受けました！",
+        "cooldown_disabled": "新しいメンバーのクールダウンが無効になりました！",
+        "cooldown_set": "新しいメンバーのクールダウンが%s分に設定されました！",
+        "cooldown": "新しいメンバーですので、カウントする前に%s分待つ必要があります！",
+        "timeout_factor_disabled": "タイムアウトファクターが無効になりました！",
+        "timeout_factor_set": "タイムアウトファクターが%sに設定されました！",
+        "reset_guild": {
+            "are_you_sure": "現在のカウントおよびすべてのユーザー統計をリセットしてもよろしいですか？",
+            "success": "ギルドデータがリセットされました！",
+            "confirm": "はい、すべてリセット",
+            "abort": "いいえ、中止"
+        },
+        "cheat_mode": {
+            "disabled": "チートモードが無効になりました！",
+            "are_you_sure": "このボットの目的を完全に破壊することを受け入れます。\n注意：チートモードでは統計が無効です。続行しますか？",
+            "confirm": "はい、私はチートです。",
+            "abort": "いいえ、私は良い人でいたい 😇",
+            "success": "チートモードが有効になりました！うれしいですか..."
+        },
+        "vote": {
+            "thank_you": "投票を検討してくれてありがとう！",
+            "rewards": "報酬を提供することはできませんが、ランダムな数学の事実を得られます！"
+        },
+        "ban_user": "ユーザー %s はカウントから禁止されました！",
+        "unban_user": "ユーザー %s はカウントからの禁止が解除されました！",
+        "user_banned": "申し訳ありませんが、%s でのカウントから禁止されています！",
+        "best": "このサーバーでの最高のカウントは %s でした。",
+        "global_top_current": "サーバー \"%s\" はグローバルリーダーボードで #%s 位です（%s サーバー）、現在のカウントで (%s)！",
+        "global_top_best": "サーバー \"%s\" はグローバルリーダーボードで #%s 位です（%s サーバー）、最高のカウントで (%s)！",
+        "new_best": "新しいハイスコア！",
+        "help_preamble": "<https://arithmetica.xyz/wiki> を訪れて、どのような表現や構文が可能かを確認できます。表現が有効なカウントであるかどうかを確認するには、`/calc`を使用して結果が正しいかどうかを確認できます。\nSupport Server: <https://discord.gg/hgFyq43dug>",
+        "admin_help_preamble": "設定：`/set-channel`でカウントチャネルを設定し、次に `/set-language`、`/toggle-arithmetic`、`/set-timeout`、`/cooldown`、`/timeout-increment` でオプションを構成できます。\nSupport Server: <https://discord.gg/hgFyq43dug>\nWiki: <https://arithmetica.xyz/wiki>",
+        "pin_highscore": "ハイスコアのピン留めが%sされました！",
+        "rounding": "丸めは%sされました！",
+        "channel_create": "私はチャンネル`%s`を見つけることができません。作成しますか？",
+        "no_banns": "現在、禁止されているユーザーはいません。"
+    }
+}

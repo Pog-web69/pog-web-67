@@ -1,0 +1,89 @@
+{
+    "__LANG__": "es-ES",
+    "generic": {
+        "activated": "activado",
+        "deactivated": "desactivado",
+        "yes": "Sí",
+        "no": "No",
+        "are_you_sure": "¿Estás seguro?",
+        "aborted": "Abortado."
+    },
+    "errors": {
+        "eval_fail": "¡Evaluación de la expresión fallida!",
+        "yn_timeout": "Se acabó el tiempo. Abortado.",
+        "generic_command_execution_failed": "¡Ha ocurrido un problema ejecutando el comando! =(",
+        "command_not_found": "No reconozco este comando '%s' :/",
+        "invalid_argument": "¡Argumentos inválidos!",
+        "channel_not_found": "El canal no existe. ¿Lo escribiste bien?",
+        "not_a_number": "¡Esto no era un número! (No has perdido, solo lo salté)",
+        "invalid_arithmetic": "¡Esa no es una expresión matemática válida! (No has perdido, solo lo saltaré)",
+        "same_user": "No puede's contar dos veces seguidas. Espera a que alguien más cuente.",
+        "no_top_stats": "Aún no hay estadísticas. ¡Cuenta para aparecer en la tabla de líderes!",
+        "stats_on_bot": "Los bots no obtienen estadísticas de conteo :)",
+        "cheat_mode_enabled": "Las estadísticas están desactivadas en modo trampa porque nadie puede perder.",
+        "math_only": "¡Solo se permiten expresiones matemáticas en este canal! El conteo normal ha sido desactivado.",
+        "tex_on_windows": "El bot actualmente se está ejecutando en Windows y, por lo tanto, no puede ejecutar este comando.",
+        "no_channel_perm": "Parece que no tengo permiso para crear canales.",
+        "bot_ban": "Buen intento, pero no puedo prohibirme a mí mismo :)"
+    },
+    "replies": {
+        "bot_info_tagline": "Bot para Discord, Permite expresiones matemáticas.",
+        "incorrect_number": "¡Ese no era el siguiente número! ¡Has perdido! El último número fue: %s y el siguiente número habría sido: %s. Tu número fue: %s",
+        "failed_stats": "Se alcanzó el número %s. El mejor conteo hasta ahora fue %s.",
+        "channel_set": "El canal ha sido configurado a %s!",
+        "arithmetic_set": "Las expresiones aritméticas han sido configuradas a %s!",
+        "arithmetic_set_mathonly": "¡Modo solo matemático habilitado!",
+        "top_users": {
+            "title": "Mejor usuario en %s",
+            "description": "Los 10 mejores usuarios ordenados por %s.",
+            "wins": "cuentas correctas",
+            "fails": "cuentas fallidas",
+            "math": "cuentas de matemáticas"
+        },
+        "stats": {
+            "your_stats": "Tus estadísticas",
+            "stats_for": "Estadísticas para %s",
+            "wins": "Cuentas correctas",
+            "fails": "Cuentas fallidas",
+            "math": "Cuentas de matemáticas"
+        },
+        "timeout_disabled": "¡El tiempo de espera ha sido desactivado!",
+        "timeout_set": "El tiempo de espera se ha establecido en %s minutos!",
+        "timeout": "¡Has recibido un tiempo de espera de %s minutos!",
+        "cooldown_disabled": "¡El tiempo de enfriamiento para nuevos miembros ha sido desactivado!",
+        "cooldown_set": "El tiempo de enfriamiento para nuevos miembros se ha establecido a %s minutos!",
+        "cooldown": "Dado que eres un nuevo miembro, tienes que esperar %s minutos antes de poder contar!",
+        "timeout_factor_disabled": "¡El factor de tiempo de espera ha sido desactivado!",
+        "timeout_factor_set": "¡El factor de tiempo de espera ha sido establecido en %s!",
+        "reset_guild": {
+            "are_you_sure": "¿Estás seguro de que quieres restablecer el contador actual y todas las estadísticas de los usuarios?",
+            "success": "¡Los datos de la guilda han sido restablecidos!",
+            "confirm": "SÍ, REINICIAR TODO",
+            "abort": "No, abortar"
+        },
+        "cheat_mode": {
+            "disabled": "¡El modo de trampa ha sido desactivado!",
+            "are_you_sure": "Acepto que esto anula completamente el propósito de este bot.\nNota: Las estadísticas están desactivadas en modo trampa. ¿Continuar?",
+            "confirm": "SÍ. SOY UN TRAMPOSO.",
+            "abort": "No, quiero ser bueno 😇",
+            "success": "¡El modo de trampa ha sido activado! Espero que estés contento..."
+        },
+        "vote": {
+            "thank_you": "¡Gracias por considerar votar!",
+            "rewards": "No podemos ofrecer recompensas, pero recibirás un hecho matemático al azar!"
+        },
+        "ban_user": "¡El usuario %s ha sido prohibido de contar!",
+        "unban_user": "¡El usuario %s ha sido desprohibido de contar!",
+        "user_banned": "¡Lo siento, pero has sido prohibido de contar en %s!",
+        "best": "El mejor conteo en este servidor hasta ahora fue %s.",
+        "global_top_current": "El servidor \"%s\" está en el lugar #%s en la clasificación global (%s servidores) con su conteo actual (%s)!",
+        "global_top_best": "El servidor \"%s\" está en el lugar #%s en la clasificación global (%s servidores) con su mejor conteo (%s)!",
+        "new_best": "¡Nuevo récord!",
+        "help_preamble": "Puede visitar <https://arithmetica.xyz/wiki> para ver qué expresiones y sintaxis son posibles. Para verificar si una expresión es un recuento válido, puede usar `/calc` para ver si el resultado es correcto.\nSupport Server: <https://discord.gg/hgFyq43dug>",
+        "admin_help_preamble": "Configuración: Establezca el canal de conteo con `/set-channel`, luego configure opcionalmente opciones con `/set-language`, `/toggle-arithmetic`, `/set-timeout`, `/cooldown` y `/timeout-increment`.\nSupport Server: <https://discord.gg/hgFyq43dug>\nWiki: <https://arithmetica.xyz/wiki>",
+        "pin_highscore": "¡El pin de la puntuación más alta ha sido %s!",
+        "rounding": "¡El redondeo ha sido %s!",
+        "channel_create": "No puedo encontrar el canal `%s`. ¿Quieres que lo cree?",
+        "no_banns": "No hay usuarios prohibidos en este momento."
+    }
+}
